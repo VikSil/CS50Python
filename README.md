@@ -26,8 +26,8 @@ This repository contains code created for "[CS50’s Introduction to Programming
 * [Vanity Plates](https://cs50.harvard.edu/python/2022/psets/2/plates/) - program prompts the user for a vanity plate and then outputs `Valid` if the plate meets the following requirements:
 
      * All vanity plates must start with at least two letters.
-     * … vanity plates may contain a maximum of 6 characters (letters or numbers) and a minimum of 2 characters.
-     * Numbers cannot be used in the middle of a plate; they must come at the end. For example, AAA222 would be an acceptable … vanity plate; AAA22A would not be acceptable. The first number used cannot be a ‘0’.
+     * Vanity plates may contain a maximum of 6 characters (letters or numbers) and a minimum of 2 characters.
+     * Numbers cannot be used in the middle of a plate; they must come at the end. For example, AAA222 would be an acceptable vanity plate; AAA22A would not be acceptable. The first number used cannot be a ‘0’.
      * No periods, spaces, or punctuation marks are allowed.
 
      Otherwise program outputs `Invalid`. It assumes that any letters in the user’s input will be uppercase.
@@ -38,7 +38,7 @@ This repository contains code created for "[CS50’s Introduction to Programming
 * [Fuel Gauge](https://cs50.harvard.edu/python/2022/psets/3/fuel/) - program prompts the user for a fraction, formatted as `X/Y`, wherein each of `X` and `Y` is an integer, and then outputs, as a percentage rounded to the nearest integer, how much fuel is in the tank. If, though, 1% or less remains, it outputs `E` instead to indicate that the tank is essentially empty. And if 99% or more remains, it outputs `F` instead to indicate that the tank is essentially full. If, though, `X` or `Y` is not an integer, `X` is greater than `Y`, or `Y` is `0`, th eprogram prompts the user again. 
 * [Felipe’s Taqueria](https://cs50.harvard.edu/python/2022/psets/3/taqueria/) -  program enables a user to place an order, prompting them for food items, one per line, until the user inputs control-d. After each  item, it displays the total cost of all items input thus far, prefixed with a dollar sign ($) and formatted to two decimal places. User’s input is treated case insensitively. Any input that isn’t an item is ignored.
 * [Grocery List](https://cs50.harvard.edu/python/2022/psets/3/grocery/) - program prompts the user for items, one per line, until the user inputs control-d. Then it outputs the user’s grocery list in all uppercase, sorted alphabetically by item, prefixing each line with the number of times the user input that item. User’s input is treated case insensitively and items are not pluralised.
-* [Outdated](https://cs50.harvard.edu/python/2022/psets/3/outdated/) - program prompts the user for a date, anno Domini, in month-day-year order, formatted like `9/8/1636` or `September 8`, 1636, and then outputs the same data in `YYYY-MM-DD` format. If the user’s input is not a valid date in either format, the program prompts the user again. The program assumes that every month has no more than 31 days.
+* [Outdated](https://cs50.harvard.edu/python/2022/psets/3/outdated/) - program prompts the user for a date, anno Domini, in month-day-year order, formatted like `9/8/1636` or `September 8`, 1636, and then outputs the same data in `YYYY-MM-DD` format. If the user’s input is not a valid date in either format, the program prompts the user again. The program assumes that every month has 31 days.
 
 ## Problem Set 4 - Libraries
 
