@@ -12,9 +12,3 @@ def test_zero():
 def test_twenty():
     assert value("Howdy") == 20
     assert value("Holy Hell") == 20
-
-""""
-def test_number():
-    with pytest.raises(AttributeError):
-        value(2)
-"""
